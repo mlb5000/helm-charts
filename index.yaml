@@ -1,0 +1,94 @@
+apiVersion: v1
+entries:
+  demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-02T23:04:56.938831419Z"
+    description: Basic Hello World for nginx chart
+    digest: 4c52ecd0cca73ae64ba418e0f9a14b0a6845c91c5cc4e17e2b6292a7f58f78cd
+    name: demo
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/demo-0.1.0/demo-0.1.0.tgz
+    version: 0.1.0
+  dr-abc:
+  - apiVersion: v2
+    appVersion: "3.12"
+    created: "2022-09-02T23:04:57.206747873Z"
+    description: 'Done Restarting - All Brokwn Contaners : A K8s App which will check
+      the api for CrashLoopBackOff containers and will delete them'
+    digest: 5d83b16cdea36a9af42c8db99cc313b25eb1ec384bc09419ef6d17e5e1edcbd2
+    name: dr-abc
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/dr-abc-0.1.1/dr-abc-0.1.1.tgz
+    version: 0.1.1
+  keycloak-export:
+  - apiVersion: v2
+    appVersion: 10.0.0
+    created: "2022-09-02T23:04:57.500566262Z"
+    description: Exports Keycloak Realms for backup and gives the option to run shipping
+      scripts
+    digest: 5b2b84f75936e63a19f9586d08f7301ae329113db28bee207abc17b763a2b4b9
+    name: keycloak-export
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/keycloak-export-0.1.2/keycloak-export-0.1.2.tgz
+    version: 0.1.2
+  mail-proxy:
+  - apiVersion: v2
+    appVersion: 1.21-alpine
+    created: "2022-09-02T23:04:57.767089915Z"
+    description: Deploys nginx as a mail proxy with SSL offload. See https://docs.nginx.com/nginx/admin-guide/mail-proxy/mail-proxy/
+    digest: adb20a841d7bad63903e9f75b061d139a1cac500dbfe7483be21237617a83a0b
+    name: mail-proxy
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/mail-proxy-0.2.1/mail-proxy-0.2.1.tgz
+    version: 0.2.1
+  proftpd:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-09-02T23:04:58.021759252Z"
+    description: Proftpd with SQL Auth & Shared Storage
+    digest: 17f7071448e520689931cce44c7e05829970179bd8a4513a4d6f6b9a6ec177d1
+    name: proftpd
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/proftpd-0.1.1/proftpd-0.1.1.tgz
+    version: 0.1.1
+  socat:
+  - apiVersion: v2
+    appVersion: "3"
+    created: "2022-09-02T23:04:58.26239327Z"
+    description: A socat container to proxy through a k8s cluster, eg to a mysql db
+    digest: 12edc2fc41b1c8553d0c270de39744a7f9fc66a65dff13b0cfe3bdc0e29cdf4b
+    name: socat
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/socat-0.1.2/socat-0.1.2.tgz
+    version: 0.1.2
+  sshd:
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2022-09-02T23:04:58.509854398Z"
+    description: SSH host. Useful for ssh hopping and other port-forwarding
+    digest: 6efa759c8cfee5bf976a62bad932e78f569fe92b705c968da29b067828b238c1
+    name: sshd
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/sshd-0.1.3/sshd-0.1.3.tgz
+    version: 0.1.3
+  tinyproxy:
+  - apiVersion: v2
+    appVersion: "1.2"
+    created: "2022-09-02T23:04:58.77622745Z"
+    description: Deploys Tinyproxy into the cluster. TinyProxy is a small http(s)
+      proxy
+    digest: cfffe189e70de5b2e4ee3aff067e5b305ec5adb02551ec5ffa74f93f003b4966
+    name: tinyproxy
+    type: application
+    urls:
+    - https://github.com/mlb5000/helm-charts/releases/download/tinyproxy-0.1.1/tinyproxy-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-09-02T23:04:56.509638551Z"
